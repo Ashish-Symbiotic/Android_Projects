@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name"> Kuch Bhi </string>
+    <string name="button_1">   Get Results   </string>
+    <string-array name="units_array">
+        <item>Select</item>
+        <item>Kg</item>
+        <item>g</item>
+
+
+    </string-array>
+    <string name="slide_2_title">Slide 2</string>
+    <string name="slide_2_desc">This is Slide 20 </string>
+
+    <string name="slide_1_title">Slide 1</string>
+    <string name="slide_1_desc">This is Slide 1 </string>
+
+    <string name="slide_3_title">Slide 3</string>
+    <string name="slide_3_desc">This is Slide 3 </string>
+
+    <string name="slide_4_title">Slide 4</string>
+    <string name="slide_4_desc">This is Slide 4 </string>
+
+<string name="def_value">0</string>
+    <string name="content_desc"> increment value  by 1</string>
+    <string name="my_prefrence">com.abc.mypref</string>
+    <string name="my_prefrence_key">com.abc.myprefKey </string>
+    <string name="delete">delete</string>
+</resources>

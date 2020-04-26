@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu"
+            android:checked="false"
+            android:icon="@drawable/ic_menu"
+            android:title="Main Menu" />
+        <item
+            android:id="@+id/discription"
+            android:checked="false"
+            android:icon="@drawable/ic_discription"
+            android:title="Discriptio" />
+
+        <item
+            android:id="@+id/profile"
+            android:checked="false"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/requestAssate"
+            android:checked="false"
+            android:icon="@drawable/ic_request"
+            android:title="Assate Request" />
+
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out" />
+    </group>
+</menu>

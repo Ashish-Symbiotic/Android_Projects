@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorControlHighLight">
+    <item android:id="@+id/mask">
+        <shape android:shape="oval">
+            <solid android:color="@color/colorAccent">
+                <corners android:radius="25dp">
+
+                </corners>
+            </solid>
+        </shape>
+
+    </item>
+<item>
+    <shape android:shape="rectangle">
+<solid android:color="@color/Deault">
+
+</solid>
+
+    </shape>
+</item>
+</ripple>

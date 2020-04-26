@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup_Enter">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/res2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lin2"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_margin="10dp"
+                android:hint="Name"
+                android:id="@+id/name2"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="25dp"
+                android:text="Location"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="City/Village"
+                android:layout_margin="10dp"
+                android:id="@+id/city2"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:hint="District"
+                android:id="@+id/dist2"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:id="@+id/Pincode2"
+                android:hint="Pincode"
+                android:inputType="number"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Buisness Details"
+                android:textSize="25dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:hint="Aadhar no."
+                android:id="@+id/addhar2"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:hint="Email"
+                android:id="@+id/Email2"
+                android:inputType="textEmailAddress"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Phone no"
+                android:layout_margin="10dp"
+                android:id="@+id/phone2"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:hint="User id"
+                android:id="@+id/res_user"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                android:hint="Password"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="Validate"
+                android:id="@+id/validate_Button2"
+
+                android:layout_marginBottom="10dp" />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:id="@+id/SignupButton2"
+                android:text="Signup"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</ScrollView>

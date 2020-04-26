@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AssetManage</string>
+    <string name="textView">Add Warranty Of Assets</string>
+    <string-array name="Category">
+        <item name="Hello">Furniture</item>
+        <item>Stationary</item>
+        <item>Office</item>
+        <item>Electronics</item>
+    </string-array>
+</resources>

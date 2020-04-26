@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear1"
+    android:orientation="vertical"
+    tools:context="com.example.hp.shell.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/bluetooth_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bluetooth_off" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/hotspot_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hotspot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/hotspot_off" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/music_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/music_player" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/screenShot_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/ScreenShot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/screenshot" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/silent_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/silent"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/silent_on" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/video_player_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/video_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/video_player" />
+    </FrameLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Screen"/>
+</ScrollView>
+</LinearLayout>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+       android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorSlide_2">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cloud_done_2"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="150dp"
+            android:id="@+id/img2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_2_title"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:id="@+id/slide2_title"
+            android:layout_below="@+id/img2"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_2_desc"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:id="@+id/slide2_desc"
+            android:layout_below="@+id/slide2_title"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

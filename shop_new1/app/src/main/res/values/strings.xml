@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">shop_new1</string>
+    <string name="import1">import</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools" > Tools</string>
+</resources>

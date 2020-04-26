@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SplashScreenTest</string>
+    <string name="home">Home</string>
+    <string name="sale">Sale</string>
+    <string name="purchase">Purachase</string>
+    <string name="bill">Bill</string>
+    <string name="search">Search</string>
+
+
+</resources>

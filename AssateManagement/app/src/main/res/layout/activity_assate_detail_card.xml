@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="com.example.naveen.assatemanagement.AssateDetailCard">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:background="@color/background"
+            android:layout_height="150dp">
+                <com.github.mikephil.charting.charts.PieChart
+                    style="@style/Widget.AppCompat.PopupWindow"
+                    android:id="@+id/pieChart"
+                    android:background="@color/background"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>
